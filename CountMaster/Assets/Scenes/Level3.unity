@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMenuObj: {fileID: 657862083}
-  coinsValueText: {fileID: 0}
+  coinsValueText: {fileID: 1076733073}
 --- !u!114 &110698253
 MonoBehaviour:
   m_ObjectHideFlags: 0
