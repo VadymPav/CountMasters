@@ -3,7 +3,7 @@ using Cinemachine;
 using DG.Tweening;
 using UnityEngine;
 
-public class stickManManager : MonoBehaviour
+public class StickManManager : MonoBehaviour
 {
     [SerializeField] private ParticleSystem blood;
     private Animator StickManAnimator;

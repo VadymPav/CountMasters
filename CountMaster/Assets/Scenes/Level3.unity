@@ -152,7 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36779128fc9037241be763c5993b81e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsValueText: {fileID: 1076733073}
 --- !u!4 &24012887
 Transform:
   m_ObjectHideFlags: 0
@@ -414,6 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMenuObj: {fileID: 657862083}
+  coinsValueText: {fileID: 0}
 --- !u!114 &110698253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3244,6 +3244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   CounterTxt: {fileID: 179482951}
+  _gameManager: {fileID: 24012886}
   stickMan: {fileID: 4267712959613970303, guid: c75153e2899591347a3bd259c122946a, type: 3}
   nextLevelMenu: {fileID: 1298226997}
   restartLevelMenu: {fileID: 363798532}
@@ -3256,9 +3257,7 @@ MonoBehaviour:
   road: {fileID: 543450653164727437}
   enemy: {fileID: 0}
   blood: {fileID: 117395733313359720, guid: 0b685d3a78818794eab2ba2c872b1e2b, type: 3}
-  SecondCam: {fileID: 1746775835}
   FinishLine: 0
-  moveTheCamera: 0
 --- !u!54 &1273723216
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4786,6 +4785,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.14
       objectReference: {fileID: 0}
+    - target: {fileID: 1193713438208738069, guid: 6e4888f2efeba3b48bd6a79fcc2f0868, type: 3}
+      propertyPath: _gameManager
+      value: 
+      objectReference: {fileID: 24012886}
+    - target: {fileID: 1193713438208738069, guid: 6e4888f2efeba3b48bd6a79fcc2f0868, type: 3}
+      propertyPath: _menuManager
+      value: 
+      objectReference: {fileID: 110698252}
     - target: {fileID: 1193713438569034454, guid: 6e4888f2efeba3b48bd6a79fcc2f0868, type: 3}
       propertyPath: m_LocalPosition.y
       value: 9.26

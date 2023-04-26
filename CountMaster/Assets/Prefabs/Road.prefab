@@ -226,7 +226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1739093124
 Transform:
   m_ObjectHideFlags: 0
@@ -470,7 +470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193713437756411969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.24, z: 0.73}
+  m_LocalPosition: {x: 0, y: -4.52, z: 0.73}
   m_LocalScale: {x: 3.0039, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -558,7 +558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1193713438099915343
 Transform:
   m_ObjectHideFlags: 0
@@ -897,7 +897,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193713438208738066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 14.126, z: 0.678}
+  m_LocalPosition: {x: 0.65, y: 0.57, z: 0.68}
   m_LocalScale: {x: 0.3, y: 0.06153, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -980,6 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: addcf01a05a9f244d992b1564820ea9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
 --- !u!1 &1193713438287044639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,7 +1173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193713438569034449}
   m_LocalRotation: {x: 1, y: -0, z: 0, w: -0.00000008940697}
-  m_LocalPosition: {x: 0.04, y: 7.8799996, z: 0.29500103}
+  m_LocalPosition: {x: 0.04, y: 5.18, z: 0.3}
   m_LocalScale: {x: 0.25, y: 0.25000006, z: 0.25000006}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2294,7 +2295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2896887181110223815}
   m_LocalRotation: {x: 0.7071068, y: -0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 1.23, y: 11.729999, z: 0.5410013}
+  m_LocalPosition: {x: 1.23, y: 9.06, z: 0.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4129,6 +4130,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e860bee5eddb1c42a8f5be4a7875f07, type: 3}
       propertyPath: m_Name
       value: ramp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e860bee5eddb1c42a8f5be4a7875f07, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3e860bee5eddb1c42a8f5be4a7875f07, type: 3}
       propertyPath: m_TagString

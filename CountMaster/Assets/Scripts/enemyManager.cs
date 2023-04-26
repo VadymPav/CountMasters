@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class enemyManager : MonoBehaviour
+public class EnemyManager : MonoBehaviour
 {
     public TextMeshPro CounterTxt;
     [SerializeField] private GameObject stickMan;

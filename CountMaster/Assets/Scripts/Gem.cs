@@ -5,18 +5,13 @@ using UnityEngine;
 
 public class Gem : MonoBehaviour
 {
-    private GameManager _gameManager;
-
-    private void Start()
-    {
-        _gameManager = GameObject.FindWithTag("GameController").GetComponent<GameManager>();
-    }
+    [SerializeField] private MenuManager _menuManager;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("blue"))
         {
-            _gameManager.IncreaseMoney();
+            _menuManager.IncreaseMoney();
             Destroy(gameObject);
         }
     }
